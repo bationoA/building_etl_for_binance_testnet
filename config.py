@@ -13,7 +13,7 @@ config = dict(
     INTERVAL_IN_MINUTES=5,
     FETCHING_INTERVAL_SECOND=70,  # 6*60 = Every 6 minutes
     NUMBER_ROWS_PER_REQUEST=300,  # 20 = the 20 last entries from now
-    CANDLES_TIME_INTERVAL_MINUTE=1,  # 5 = 5 minutes candles
+    CANDLES_TIME_INTERVAL_MINUTE=1,  # 5 = 5 minutes candles, But not use in this ETL project as many others
     MAXIMUM_TRIES_PER_ORDER=3,
     DECISION_CLASSES=['Hold', 'Buy', 'Sell'],
     DATAFRAME_COLUMN_NAMES_LIST=['Open_time', 'Open', 'High', 'Low', 'Close', 'Volume', 'Close_time',
