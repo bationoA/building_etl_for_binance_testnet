@@ -37,6 +37,7 @@ To run the trading bot project, follow these steps:
     Set up a LAMP environment on your system.
     Install the required Python libraries and dependencies (requirements.txt).
     Create a database and a user with all privileges over the created databse
+    You do not need to create the table, it will be created automatically ()
     You can create a .env file to store your database credentials
     Open the config.py file update variables related to your database
     You can run the main.py file. This will perform only one execution.
