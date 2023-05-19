@@ -13,12 +13,12 @@ information about the price, volume, and other relevant indicators for each cryp
 
 ### Data Transformation
 
-Once the data is retrieved, it undergoes a transformation process to enhance its usefulness for the machine learning model. During this step, various data preprocessing techniques are applied, including feature engineering, normalization, and scaling. The transformation process results in an expanded dataset with 337 columns, capturing a wide range of relevant information.
+Once the data is retrieved, it undergoes a transformation process to enhance its usefulness for the machine learning 
+model. During this step, various indicators.
 
 ### MySQL Database Setup
 
 To store and manage the transformed data, a MySQL database has been set up using the LAMP (Linux, Apache, MySQL, PHP) stack. The database provides a structured environment for storing the processed data efficiently. This allows for easy retrieval and analysis of the data when training and deploying the trading bot.
-ETL Python Script
 
 The project includes an Extract-Transform-Load (ETL) Python script that handles the data pipeline. The script retrieves the data from Binance Testnet API, performs the necessary data transformations locally, and inserts the processed data into the MySQL database. The ETL script ensures a smooth and automated flow of data from the data source to the database.
 
